@@ -1,43 +1,15 @@
-[00:00:00.494] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:00.577] Server  LOG      ✓ Ready in 406ms
-[00:00:04.491] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:00:04.495] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:00:04.502] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:00:04.506] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:00:04.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.693] Browser ERROR   uncaughtError: MongoServerError: bad auth : Authentication failed.
-[00:01:09.945] Server  LOG        Reload env: .env.local
-[00:01:10.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:11.002] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:11.002] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
-[00:01:11.002] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383367434}
-[00:01:18.422] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin-login color: rgb(120, 120, 120) color: inherit {"dp":"/admin-login","o":"http://localhost:3000/admin-login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383375288}
-[00:01:20.600] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:01:20.603] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:01:20.714] Browser ERROR   uncaughtError: MongoServerError: bad auth : Authentication failed.
-[00:01:59.670] Server  LOG        Reload env: .env.local
-[00:01:59.823] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:01:59.826] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:01:59.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:00.016] Browser ERROR   uncaughtError: MongoServerError: bad auth : Authentication failed.
-[00:02:01.373] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:01.522] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:01.522] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:01.522] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383418388}
-[00:04:50.455] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383587321}
-[00:04:53.271] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383590137}
-[00:05:06.153] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383603020}
-[00:05:11.914] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/pricing color: rgb(120, 120, 120) color: inherit {"dp":"/pricing","o":"http://localhost:3000/pricing","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383608781}
-[00:05:13.733] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#lead-form color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#lead-form","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383610600}
-[00:05:17.323] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383614190}
-[00:05:18.545] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383615412}
-[00:05:24.497] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin-login color: rgb(120, 120, 120) color: inherit {"dp":"/admin-login","o":"http://localhost:3000/admin-login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383621363}
-[00:05:37.895] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383634762}
-[00:05:40.833] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:05:40.840] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:05:40.965] Browser ERROR   uncaughtError: MongoServerError: bad auth : Authentication failed.
-[00:05:45.971] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:46.114] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.450] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.536] Server  LOG      ✓ Ready in 1344ms
+[00:00:06.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.344] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.344] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/models","route":"/models"}
+[00:00:06.344] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/models color: rgb(120, 120, 120) color: inherit {"dp":"/models","o":"http://localhost:3001/models","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785686971}
+[00:00:07.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.553] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:07.553] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:07.553] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785688177}
+[00:00:13.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.326] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -107,206 +79,16 @@ It can also happen if the client has a browser extension installed which messes 
                                 >
                     ...
       ...
-        <LoginPage params={Promise} searchParams={Promise}>
-          <div className="min-h-[cal...">
-            <div className="w-full max...">
-              <Tabs defaultValue="login" className="w-full">
-                <Tabs data-slot="tabs" className="flex flex-..." defaultValue="login">
-                  <TabsProvider scope={undefined} baseId="radix-_R_1..." value="login" ...>
-                    <Primitive.div dir="ltr" data-orientation="horizontal" data-slot="tabs" className="flex flex-..." ...>
-                      <div dir="ltr" data-orientation="horizontal" data-slot="tabs" className="flex flex-..." ref={null}>
-                        ...
-                          <div role="tablist" aria-orientation="horizontal" data-slot="tabs-list" ...>
-                            ...
-                              <Slot tabIndex={-1} data-orientation="horizontal" onMouseDown={function handleEvent} ...>
-                                <SlotClone tabIndex={-1} data-orientation="horizontal" onMouseDown={function handleEvent} ...>
-                                  <Primitive.button type="button" role="tab" aria-selected={true} ...>
-                                    <button
-                                      type="button"
-                                      role="tab"
-                                      aria-selected={true}
-+                                     aria-controls="radix-_R_15esneitllb_-content-login"
--                                     aria-controls="radix-_R_4lritqitllb_-content-login"
-                                      data-state="active"
-                                      data-disabled={undefined}
-                                      disabled={false}
-+                                     id="radix-_R_15esneitllb_-trigger-login"
--                                     id="radix-_R_4lritqitllb_-trigger-login"
-                                      data-slot="tabs-trigger"
-                                      className={"data-[state=active]:bg-background dark:data-[state=active]:text-for..."}
-                                      onMouseDown={function}
-                                      onKeyDown={function}
-                                      onFocus={function}
-                                      tabIndex={-1}
-                                      data-orientation="horizontal"
-                                      data-radix-collection-item=""
-                                      ref={function}
-                                    >
-+                                     Login
-                            ...
-                              <Slot tabIndex={-1} data-orientation="horizontal" onMouseDown={function handleEvent} ...>
-                                <SlotClone tabIndex={-1} data-orientation="horizontal" onMouseDown={function handleEvent} ...>
-                                  <Primitive.button type="button" role="tab" aria-selected={false} ...>
-                                    <button
-                                      type="button"
-                                      role="tab"
-                                      aria-selected={false}
-+                                     aria-controls="radix-_R_15esneitllb_-content-signup"
--                                     aria-controls="radix-_R_4lritqitllb_-content-signup"
-                                      data-state="inactive"
-                                      data-disabled={undefined}
-                                      disabled={false}
-+                                     id="radix-_R_15esneitllb_-trigger-signup"
--                                     id="radix-_R_4lritqitllb_-trigger-signup"
-                                      data-slot="tabs-trigger"
-                                      className={"data-[state=active]:bg-background dark:data-[state=active]:text-for..."}
-                                      onMouseDown={function}
-                                      onKeyDown={function}
-                                      onFocus={function}
-                                      tabIndex={-1}
-                                      data-orientation="horizontal"
-                                      data-radix-collection-item=""
-                                      ref={function}
-                                    >
-+                                     Sign Up
-                        <TabsContent value="login" className="animate-sl...">
-                          <TabsContent data-slot="tabs-content" className="flex-1 out..." value="login">
-                            <Presence present={true}>
-                              <Primitive.div data-state="active" data-orientation="horizontal" role="tabpanel" ...>
-                                <div
-                                  data-state="active"
-                                  data-orientation="horizontal"
-                                  role="tabpanel"
-+                                 aria-labelledby="radix-_R_15esneitllb_-trigger-login"
--                                 aria-labelledby="radix-_R_4lritqitllb_-trigger-login"
-                                  hidden={false}
-+                                 id="radix-_R_15esneitllb_-content-login"
--                                 id="radix-_R_4lritqitllb_-content-login"
-                                  tabIndex={0}
-                                  data-slot="tabs-content"
-                                  className="flex-1 outline-none animate-slide-up"
-                                  style={{animationDuration:"0s"}}
-                                  ref={function}
-                                >
-                        <TabsContent value="signup" className="animate-sl...">
-                          <TabsContent data-slot="tabs-content" className="flex-1 out..." value="signup">
-                            <Presence present={false}>
-                              <Primitive.div data-state="inactive" data-orientation="horizontal" role="tabpanel" ...>
-                                <div
-                                  data-state="inactive"
-                                  data-orientation="horizontal"
-                                  role="tabpanel"
-+                                 aria-labelledby="radix-_R_15esneitllb_-trigger-signup"
--                                 aria-labelledby="radix-_R_4lritqitllb_-trigger-signup"
-                                  hidden={true}
-+                                 id="radix-_R_15esneitllb_-content-signup"
--                                 id="radix-_R_4lritqitllb_-content-signup"
-                                  tabIndex={0}
-                                  data-slot="tabs-content"
-                                  className="flex-1 outline-none animate-slide-up"
-                                  style={{animationDuration:undefined}}
-                                  ref={function}
-                                >
-      ...
 
-[00:05:46.114] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:46.114] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
-[00:05:46.114] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383642981}
-[00:05:47.830] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin-login color: rgb(120, 120, 120) color: inherit {"dp":"/admin-login","o":"http://localhost:3000/admin-login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383644697}
-[00:05:50.626] Server  ERROR   Error fetching admin stats: MongoServerError: bad auth : Authentication failed.
-[00:05:50.647] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:05:50.650] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin","o":"http://localhost:3000/dashboard/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383647480}
-[00:05:50.733] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'toLocaleString')
-[00:06:27.671] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:06:27.758] Server  LOG      ✓ Compiled in 48ms
-[00:06:27.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:27.962] Server  ERROR   Error fetching admin stats: MongoServerError: bad auth : Authentication failed.
-[00:06:27.968] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:06:29.002] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:29.002] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/admin","route":"/dashboard/admin"}
-[00:06:29.002] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin","o":"http://localhost:3000/dashboard/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383684950}
-[00:06:34.729] Server  ERROR   Error fetching admin stats: MongoServerError: bad auth : Authentication failed.
-[00:06:34.740] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:06:36.801] Server  ERROR   Error fetching agents: MongoServerError: bad auth : Authentication failed.
-[00:06:36.849] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/agents color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/agents","o":"http://localhost:3000/dashboard/admin/agents","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383693713}
-[00:06:37.443] Server  ERROR   Error fetching admin stats: MongoServerError: bad auth : Authentication failed.
-[00:06:37.449] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:06:37.535] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin","o":"http://localhost:3000/dashboard/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383694402}
-[00:07:00.857] Server  ERROR   Error fetching agents: MongoServerError: bad auth : Authentication failed.
-[00:07:00.948] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/agents color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/agents","o":"http://localhost:3000/dashboard/admin/agents","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383717814}
-[00:07:01.773] Server  ERROR   Error fetching admin stats: MongoServerError: bad auth : Authentication failed.
-[00:07:01.779] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:07:01.864] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin","o":"http://localhost:3000/dashboard/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383718731}
-[00:07:10.594] Server  ERROR   Error fetching agents: MongoServerError: bad auth : Authentication failed.
-[00:07:10.678] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/agents color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/agents","o":"http://localhost:3000/dashboard/admin/agents","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383727545}
-[00:07:20.270] Server  ERROR   Error fetching lab techs: MongoServerError: bad auth : Authentication failed.
-[00:07:20.312] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/labtechs color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/labtechs","o":"http://localhost:3000/dashboard/admin/labtechs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383737180}
-[00:07:27.650] Server  ERROR   Error fetching farmers: MongoServerError: bad auth : Authentication failed.
-[00:07:27.687] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/farmers color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/farmers","o":"http://localhost:3000/dashboard/admin/farmers","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383744554}
-[00:07:34.694] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:07:34.784] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/orders","o":"http://localhost:3000/dashboard/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383751641}
-[00:07:37.579] Server  ERROR   Error fetching leads: MongoServerError: bad auth : Authentication failed.
-[00:07:37.595] Server  ERROR   Error fetching messages: MongoServerError: bad auth : Authentication failed.
-[00:07:37.617] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/leads color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/leads","o":"http://localhost:3000/dashboard/admin/leads","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383754483}
-[00:07:40.544] Server  ERROR   Error fetching global config: MongoServerError: bad auth : Authentication failed.
-[00:07:40.580] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/config color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/config","o":"http://localhost:3000/dashboard/admin/config","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383757448}
-[00:07:49.708] Server  ERROR   Error fetching admin stats: MongoServerError: bad auth : Authentication failed.
-[00:07:49.712] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:07:49.799] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin","o":"http://localhost:3000/dashboard/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383766666}
-[00:08:04.869] Server  ERROR   Error fetching admin stats: MongoServerError: bad auth : Authentication failed.
-[00:08:04.875] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:08:05.796] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[00:08:05.796] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:08:05.796] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[00:08:05.796] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:08:06.860] Server  ERROR   Error fetching agents: MongoServerError: bad auth : Authentication failed.
-[00:08:06.945] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/agents color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/agents","o":"http://localhost:3000/dashboard/admin/agents","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383783811}
-[00:08:07.980] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[00:08:07.980] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:08:07.980] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[00:08:07.980] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:08:08.861] Server  ERROR   Error fetching farmers: MongoServerError: bad auth : Authentication failed.
-[00:08:08.947] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/farmers color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/farmers","o":"http://localhost:3000/dashboard/admin/farmers","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383785811}
-[00:08:09.995] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[00:08:09.995] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:08:09.995] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[00:08:09.995] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:08:10.954] Server  ERROR   Error fetching orders: MongoServerError: bad auth : Authentication failed.
-[00:08:11.043] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/admin/orders","o":"http://localhost:3000/dashboard/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383787888}
-[00:10:07.935] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383904803}
-[00:14:13.393] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765384150262}
-[00:14:16.158] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:14:16.160] Server  ERROR    ⨯ MongoServerError: bad auth : Authentication failed.
-[00:14:16.271] Browser ERROR   uncaughtError: MongoServerError: bad auth : Authentication failed.
-[00:25:54.157] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:54.324] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:54.324] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/models","route":"/models"}
-[00:25:54.324] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/models color: rgb(120, 120, 120) color: inherit {"dp":"/models","o":"http://localhost:3000/models","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765384851199}
-[00:25:56.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:56.622] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:56.622] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/models","route":"/models"}
-[00:25:56.622] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/models color: rgb(120, 120, 120) color: inherit {"dp":"/models","o":"http://localhost:3000/models","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765384853497}
+[00:00:13.326] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:13.326] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:13.326] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785693955}
+[00:00:15.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.261] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:16.261] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:16.261] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785696890}
+[00:02:42.345] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785842810}
+[00:02:42.345] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785842813}
+[00:02:42.345] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785842788}
+[00:02:42.345] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765785842790}
+[00:03:46.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
