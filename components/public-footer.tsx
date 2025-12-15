@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useI18n } from "@/lib/i18n/context"
 import { Leaf, Phone, Mail, MapPin, MessageCircle } from "lucide-react"
 import { defaultConfig } from "@/lib/config"
@@ -15,8 +16,8 @@ export function PublicFooter() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-                <Leaf className="h-5 w-5 text-primary-foreground" />
+              <div className="flex h-9 w-9 items-center justify-center rounded-lg overflow-hidden">
+                <Image src="/icon1.png" alt="Bhumetra" width={40} height={40} className="object-contain" />
               </div>
               <span className="text-xl font-bold text-primary">Bhumetra</span>
             </Link>

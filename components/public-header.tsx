@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useI18n } from "@/lib/i18n/context"
 import { LanguageSelector } from "./language-selector"
 import { Button } from "@/components/ui/button"
@@ -24,8 +25,8 @@ export function PublicHeader() {
       <div className="container mx-auto flex h-14 sm:h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 transition-smooth hover:opacity-80">
-          <div className="flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-lg bg-primary">
-            <Leaf className="h-4 w-4 sm:h-5 sm:w-5 text-primary-foreground" />
+          <div className="flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-lg overflow-hidden">
+            <Image src="/icon1.png" alt="Bhumetra" width={36} height={36} className="object-contain" />
           </div>
           <span className="text-lg sm:text-xl font-bold text-primary">Bhumetra</span>
         </Link>
@@ -65,8 +66,8 @@ export function PublicHeader() {
             <SheetContent side="right" className="w-[280px] p-0">
               <div className="p-4 border-b">
                 <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-                  <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-                    <Leaf className="h-5 w-5 text-primary-foreground" />
+                  <div className="flex h-9 w-9 items-center justify-center rounded-lg overflow-hidden">
+                    <Image src="/icon1.png" alt="Bhumetra" width={36} height={36} className="object-contain" />
                   </div>
                   <span className="text-xl font-bold text-primary">Bhumetra</span>
                 </Link>
