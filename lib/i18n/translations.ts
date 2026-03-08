@@ -83,6 +83,17 @@ export const translations = {
       // Lead Form
       leadFormTitle: "Get Started Today",
       leadFormSubtitle: "Fill the form and our agent will contact you",
+
+      // Services
+      mappingTitle: "Satellite Land Mapping",
+      mappingSubtitle: "Plan your land with advanced insights",
+      mappingDesc: "Using our advanced devices and satellite technology, we provide farmers with deep insights to plan their land efficiently.",
+      mappingCTA: "Get Mapped",
+
+      turbineTitle: "Generate Your Own Electricity",
+      turbineSubtitle: "Wind Turbines for Farmers",
+      turbineDesc: "Bhumetra also provides sustainable wind turbines to farmers. Generate your own clean electricity directly on your farm.",
+      turbineCTA: "Learn More",
     },
 
     // About Page
@@ -319,38 +330,49 @@ export const translations = {
 
     // Landing Page
     landing: {
-      heroTitle: "बेहतर फसल के लिए वैज्ञानिक मिट्टी परीक्षण",
+      heroTitle: "शानदार फसल के लिए वैज्ञानिक मिट्टी परीक्षण",
       heroSubtitle:
-        "अपने खेत के लिए सटीक मिट्टी विश्लेषण और AI-संचालित सिफारिशें प्राप्त करें। हमारे एजेंट नमूने एकत्र करते हैं, प्रयोगशालाएं परीक्षण करती हैं, और आपको कार्रवाई योग्य जानकारी मिलती है।",
-      ctaBookTest: "मिट्टी परीक्षण बुक करें",
+        "अपने खेत की मिट्टी की सटीक जाँच और AI आधारित सुझाव पाएँ। हमारे एजेंट आपके खेत से खुद सैंपल लेकर लैब में टेस्ट करवाते हैं, जिससे आपको मिलती है सही और उपयोगी जानकारी।",
+      ctaBookTest: "अपनी मिट्टी की जाँच करवाएँ",
       ctaTalk: "हमारी टीम से बात करें",
-      brandMeaning: '"भू" का अर्थ है मिट्टी, "मेट्रा" का अर्थ है माप',
+      brandMeaning: "'भू' मतलब मिट्टी, और 'मेट्रा' मतलब मापना",
 
       // How it Works
-      howItWorksTitle: "यह कैसे काम करता है",
+      howItWorksTitle: "यह कैसे काम करता है?",
       step1Title: "टेस्ट बुक करें",
-      step1Desc: "हमारे एजेंट से संपर्क करें या फॉर्म भरें। हम आपके खेत तक पहुंचेंगे।",
-      step2Title: "नमूना संग्रह",
-      step2Desc: "हमारे प्रशिक्षित एजेंट आपकी जमीन से मिट्टी के नमूने एकत्र करते हैं।",
-      step3Title: "प्रयोगशाला विश्लेषण",
-      step3Desc: "प्रमाणित प्रयोगशालाएं आपकी मिट्टी का 15+ मापदंडों पर परीक्षण करती हैं।",
-      step4Title: "सिफारिशें प्राप्त करें",
-      step4Desc: "AI-संचालित फसल और उर्वरक सलाह के साथ विस्तृत रिपोर्ट प्राप्त करें।",
+      step1Desc: "हमारे एजेंट से संपर्क करें या सीधे फॉर्म भरें। हम खुद आपके खेत तक आएँगे।",
+      step2Title: "मिट्टी का सैंपल लेना",
+      step2Desc: "हमारे प्रशिक्षित एजेंट आपकी ज़मीन से सही तरीके से मिट्टी का सैंपल लेंगे।",
+      step3Title: "लैब में टेस्टिंग",
+      step3Desc: "हमारी सर्टिफाइड लैब्स में आपकी मिट्टी की 15+ मापदंडों पर बारीकी से जाँच की जाती है।",
+      step4Title: "एक्सपर्ट सुझाव पाएँ",
+      step4Desc: "AI आधारित फसल और खाद के सुझावों वाली एक विस्तृत रिपोर्ट पाएँ, जो आपकी खेती को बेहतर बनाए।",
 
       // Benefits
-      benefitsTitle: "भूमेत्र क्यों चुनें?",
-      benefit1Title: "वैज्ञानिक सटीकता",
-      benefit1Desc: "सटीक माप के साथ प्रमाणित प्रयोगशाला परीक्षण",
-      benefit2Title: "आसान प्रक्रिया",
-      benefit2Desc: "प्रशिक्षित एजेंटों द्वारा घर-घर नमूना संग्रह",
-      benefit3Title: "स्मार्ट सिफारिशें",
-      benefit3Desc: "AI-संचालित फसल और उर्वरक सुझाव",
-      benefit4Title: "किफायती मूल्य",
-      benefit4Desc: "प्रति एकड़ पारदर्शी मूल्य के साथ सर्वोत्तम दरें",
+      benefitsTitle: "भूमित्रा (Bhumetra) ही क्यों?",
+      benefit1Title: "वैज्ञानिक और सटीक जाँच",
+      benefit1Desc: "सर्टिफाइड और भरोसेमंद लैब टेस्टिंग, जो दे बिल्कुल सही नतीजे।",
+      benefit2Title: "आसान और झंझट-मुक्त",
+      benefit2Desc: "बिना किसी परेशानी के, हमारे एजेंट आपके खेत से ही सैंपल ले जाएँगे।",
+      benefit3Title: "स्मार्ट और असरदार सुझाव",
+      benefit3Desc: "बेहतर पैदावार के लिए AI आधारित खाद और फसल के सुझाव।",
+      benefit4Title: "कम खर्च, ज्यादा फायदा",
+      benefit4Desc: "सब कुछ पारदर्शी, प्रति एकड़ के हिसाब से सबसे बेहतरीन दाम।",
 
       // Lead Form
-      leadFormTitle: "आज ही शुरू करें",
-      leadFormSubtitle: "फॉर्म भरें और हमारा एजेंट आपसे संपर्क करेगा",
+      leadFormTitle: "आज ही शुरुआत करें",
+      leadFormSubtitle: "फॉर्म भरें और हमारा एजेंट जल्द ही आपसे संपर्क करेगा",
+
+      // Services
+      mappingTitle: "सैटेलाइट लैंड मैपिंग (Satellite Land Mapping)",
+      mappingSubtitle: "आधुनिक तकनीक से करें अपनी ज़मीन की प्लानिंग",
+      mappingDesc: "हमारे एडवांस्ड डिवाइस और सैटेलाइट तकनीक का इस्तेमाल करके, हम किसानों को उनकी ज़मीन की बेहतर प्लानिंग के लिए सटीक जानकारी देते हैं।",
+      mappingCTA: "मैपिंग शुरू करें",
+
+      turbineTitle: "अपनी बिजली खुद बनाएँ",
+      turbineSubtitle: "किसानों के लिए विंड टर्बाइन",
+      turbineDesc: "भूमित्रा किसानों को टिकाऊ और आधुनिक विंड टर्बाइन भी उपलब्ध कराता है। अब अपने खेत में ही अपनी खुद की साफ-सुथरी बिजली बनाएँ।",
+      turbineCTA: "और जानें",
     },
 
     // About Page
